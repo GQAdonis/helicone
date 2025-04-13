@@ -6,7 +6,7 @@ compatibility_flags = [
 	"streams_enable_constructors",
 ]
 logpush = true
-node_compat = true
+nodejs_compat = true
 
 durable_objects.bindings = [
 	{ name = "RATE_LIMITER", class_name = "InMemoryRateLimiter" },

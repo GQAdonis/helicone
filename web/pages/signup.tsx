@@ -150,7 +150,7 @@ export const getServerSideProps = async (
   // default to the https://us.helicone.ai/signin if no other conditions are met
   return {
     redirect: {
-      destination: "https://us.helicone.ai/signin",
+      destination: "https://helicone.skytok.net/signin",
       permanent: true,
     },
   };
